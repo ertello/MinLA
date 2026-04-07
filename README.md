@@ -4,7 +4,7 @@
 
 The *Minimum Linear Arrangement* problem (MinLA) was first stated by Harper in [1]. His aim was to design error-correcting codes with minimal average absolute errors on certain classes of graphs. Later, in the 1970's MinLA was used as an abstract model of the placement phase in VLSI layout, where vertices of the graph represented modules and edges represented interconnections. In this case, the cost of the arrangement measures the total wire length [2]. MinLA arises also in other research fields like biological applications, graph drawing, software diagram layout and job scheduling [3,4].
 
-The MinLA problem can be defined formally as follows. Let $G(V,E)$ be a finite undirected graph, where $|V|=n$ defines the set of vertices and $E\subseteq V \times V\; = \{\{i,j\}\,|\, i,j\in V\}$ is the set of edges. Given a one-to-one labeling function $\varphi :V\rightarrow \{1..n\}$, called a linear arrangement, the total edge length (cost) for $G$ with respect to the arrangement $\varphi$ is defined according to
+The MinLA problem can be defined formally as follows. Let $G(V,E)$ be a finite undirected graph, where $|V|=n$ defines the set of vertices and $E$ is the set of edges. Given a one-to-one labeling function $\varphi :V\rightarrow \\{1..n\\}$, called a linear arrangement, the total edge length (cost) for $G$ with respect to the arrangement $\varphi$ is defined according to
 
 $$LA(G,\varphi )=\sum\limits_{(u,v)\in E}|\varphi (u)-\varphi (v)|\;,$$ where $|\varphi (u)-\varphi (v)|$ is called the linear distance, and $\varphi (u)$ denotes the label associated to vertex $u$.
 
