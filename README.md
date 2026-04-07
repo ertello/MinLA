@@ -6,9 +6,11 @@ The *Minimum Linear Arrangement* problem (MinLA) was first stated by Harper in [
 
 The MinLA problem can be defined formally as follows. Let $G(V,E)$ be a finite undirected graph, where $|V|=n$ defines the set of vertices and $E$ is the set of edges. Given a one-to-one labeling function $\varphi :V\rightarrow \\{1..n\\}$, called a linear arrangement, the total edge length (cost) for $G$ with respect to the arrangement $\varphi$ is defined according to
 
-$$LA(G,\varphi )=\sum\limits_{(u,v)\in E}|\varphi (u)-\varphi (v)|$$, where $|\varphi (u)-\varphi (v)|$ is called the linear distance, and $\varphi (u)$ denotes the label associated to vertex $u$.
+$$LA(G,\varphi )=\sum\limits_{(u,v)\in E}|\varphi (u)-\varphi (v)|,$$ 
 
-Then the MinLA problem consists in finding a linear arrangement $\varphi^\ast$ for a given $G$ so that $LA(G,\varphi^\ast)$ is minimized.
+where $|\varphi (u)-\varphi (v)|$ is called the linear distance, and $\varphi (u)$ denotes the label associated to vertex $u$.
+
+Then the MinLA problem consists in finding a linear arrangement $\varphi^\ast$ for a given graph $G$ so that $LA(G,\varphi^\ast)$ is minimized.
 
 ---
 
