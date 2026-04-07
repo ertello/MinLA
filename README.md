@@ -1,7 +1,5 @@
 # MinLA Problem
 
----
-
 ## Problem definition
 
 The *Minimum Linear Arrangement* problem (MinLA) was first stated by Harper in [1]. His aim was to design error-correcting codes with minimal average absolute errors on certain classes of graphs. Later, in the 1970's MinLA was used as an abstract model of the placement phase in VLSI layout, where vertices of the graph represented modules and edges represented interconnections. In this case, the cost of the arrangement measures the total wire length [2]. MinLA arises also in other research fields like biological applications, graph drawing, software diagram layout and job scheduling [3,4].
@@ -14,14 +12,12 @@ where $|\varphi (u)-\varphi (v)|$ is called the linear distance, and $\varphi (u
 
 Then the MinLA problem consists in finding a linear arrangement $\varphi^\ast$ for a given graph $G$ so that $LA(G,\varphi^\ast)$ is minimized.
 
----
 
 ## Benchmark instances
 
 - **Small and Medium Instances (smallInstances.tgz).** This is a test-suite originally proposed by Jordi Petit and used later by other authors. It includes 21 graphs from 6 different families: Uniform random, geometric random, graphs with known optima, finite element discretizations, VLSI design and graph drawing competitions. Their number of vertices is between 62 and 9800.
 - **Big Instances (bigInstances.tgz).** The second test-suite is composed of 9 very large graphs from finite element discretizations, obtained from the publicly available collections of George Karypis and Francois Pellegrini. These graphs were first used by Yehuda Koren and David Harel. Their number of vertices is between 78136 and 1017253.
 
----
 
 ## Computational results
 
@@ -33,7 +29,6 @@ The results reported in this section were obtained with the Two-Stage Simulated 
 
 - **Detailed Results (detailedResultsCOR2007.zip).** This file contains the detailed execution data from our experiments with the TSSA algorithm.
 
----
 
 ## References
 
