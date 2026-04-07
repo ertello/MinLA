@@ -25,13 +25,13 @@ Then the MinLA problem consists in finding a linear arrangement $\varphi^\ast$ f
 
 ## Computational results
 
-The results reported in this section were obtained with the TSSA algorithm described in the following paper:
+The results reported in this section were obtained with the Two-Stage Simulated Annealing Algorithm (TSSA) algorithm described in the following paper:
 
 *An Effective Two-Stage Simulated Annealing Algorithm for the Minimum Linear Arrangement Problem.* Eduardo Rodriguez-Tello, Jin-Kao Hao and Jose Torres-Jimenez, Computers & Operations Research, 35(10):3331-3346, Elsevier Octobre 2008, DOI: [10.1016/j.cor.2007.03.001](https://doi.org/10.1016/j.cor.2007.03.001).
 
-- **Final Permutations (finalPermutations.tgz).** This file contains the best final permutations found using our Two-Stage Simulated Annealing Algorithm (TSSA).
+- **Final Permutations (finalPermutations.tgz).** This file contains the best final permutations found using our TSSA algorithm.
 
-- **Detailed Results (detailedResultsCOR2007.zip).** This file contains the detailed execution data from our experiments with the TSSA algorithm described in the following paper:
+- **Detailed Results (detailedResultsCOR2007.zip).** This file contains the detailed execution data from our experiments with the TSSA algorithm.
 
 ---
 
